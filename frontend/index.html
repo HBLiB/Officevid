@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Officevid — Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1 id="form-title">Login</h1>
+    <form id="auth-form" novalidate>
+      <label for="email">Email</label>
+      <input id="email" type="email" name="email" autocomplete="email" required>
+
+      <label for="password">Password</label>
+      <input id="password" type="password" name="password" autocomplete="current-password" required>
+
+      <button type="submit" id="submit-btn">Login</button>
+    </form>
+    <p id="feedback" class="feedback" role="status"></p>
+    <p class="toggle-text">
+      <span id="toggle-prompt">Don't have an account?</span>
+      <a href="#" id="toggle-link">Register</a>
+    </p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
