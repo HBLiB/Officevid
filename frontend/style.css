@@ -23,6 +23,24 @@ body {
   max-width: 400px;
 }
 
+.logo {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.logo svg {
+  display: inline-block;
+}
+
+.logo-text {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  letter-spacing: 0.02em;
+}
+
 h1 {
   text-align: center;
   margin-bottom: 1.5rem;
